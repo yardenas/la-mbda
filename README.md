@@ -2,7 +2,7 @@
 <img width="100%" src="https://imgur.com/0G3VKle.gif"><img width="100%" src="https://imgur.com/zdyuRdN.gif">
 
 ## Idea
-By taking a Bayesian perspective, LAMBDA learns a world model and uses it to generate sequences using different posterior samples of the world model parameters. Following that, it chooses and learns from the optimistic sequences how to solve the task and from the pessimistic dream how to adhere to safety restrictions.
+By taking a Bayesian perspective, LAMBDA learns a world model and uses it to generate sequences using different posterior samples of the world model parameters. Following that, it chooses and learns from the optimistic sequences how to solve the task and from the pessimistic sequences how to adhere to safety restrictions.
 
 <img width="100%" src="https://imgur.com/W5n1wuV.gif">
 
