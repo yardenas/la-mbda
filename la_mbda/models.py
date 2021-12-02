@@ -273,6 +273,7 @@ class Actor(tf.Module):
 
 # Following https://github.com/tensorflow/probability/issues/840 and
 # https://github.com/tensorflow/probability/issues/840.
+# Following implementation @ https://github.com/danijar/dreamer
 class StableTanhBijector(tfp.bijectors.Tanh):
     def __init__(self, validate_args=False, name='tanh_stable_bijector'):
         super(StableTanhBijector, self).__init__(validate_args=validate_args, name=name)
@@ -285,6 +286,7 @@ class StableTanhBijector(tfp.bijectors.Tanh):
         return tf.saturate_cast(y, dtype)
 
 
+# Following implementation @ https://github.com/danijar/dreamer
 class SampleDist(object):
     def __init__(self, dist, seed, samples=100):
         self._dist = dist
