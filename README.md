@@ -34,3 +34,6 @@ results
         ├── experiment1
         └── experiment2
 ```
+
+## Acknowledgement
+[Dreamer](https://github.com/danijar/dreamer) codebase which served as a starting point for this github repo
