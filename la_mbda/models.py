@@ -281,7 +281,7 @@ class StableTanhBijector(tfp.bijectors.Tanh):
     def _inverse(self, y):
         dtype = y.dtype
         y = tf.cast(y, tf.float32)
-        y = tf.clip_by_value(y, -0.99999997, -0.99999997)
+        y = tf.clip_by_value(y, -0.99999997, 0.99999997)
         y = tf.atanh(y)
         return tf.saturate_cast(y, dtype)
 
