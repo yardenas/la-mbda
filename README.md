@@ -35,5 +35,16 @@ results
         └── experiment2
 ```
 
+## Research Paper
+Please see our [paper (arXiv)](https://arxiv.org/abs/2201.09802) for further details.
+```
+@article{as2022constrained,
+  title={Constrained Policy Optimization via Bayesian World Models},
+  author={As, Yarden and Usmanova, Ilnura and Curi, Sebastian and Krause, Andreas},
+  journal={arXiv preprint arXiv:2201.09802},
+  year={2022}
+}
+```
+
 ## Acknowledgement
 [Dreamer](https://github.com/danijar/dreamer) codebase which served as a starting point for this github repo
