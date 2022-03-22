@@ -37,6 +37,7 @@ results
 
 ## Research Paper
 Please see our [paper (arXiv)](https://arxiv.org/abs/2201.09802) for further details.
+To cite, please use:
 ```
 @article{as2022constrained,
   title={Constrained Policy Optimization via Bayesian World Models},
