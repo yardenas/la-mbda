@@ -1,6 +1,17 @@
 # LAMBDA
 <img width="100%" src="https://imgur.com/0G3VKle.gif"><img width="100%" src="https://imgur.com/zdyuRdN.gif">
 
+A repository for the implementation of the paper **Constrained Policy Optimization via Bayesian World Models** (Yarden As, Ilnura Usmanova, Sebastian Curi, Andreas Krause, ICLR 2022). Please see our [paper (arXiv)](https://arxiv.org/abs/2201.09802) for further details.
+To cite, please use:
+```
+@article{as2022constrained,
+  title={Constrained Policy Optimization via Bayesian World Models},
+  author={As, Yarden and Usmanova, Ilnura and Curi, Sebastian and Krause, Andreas},
+  journal={arXiv preprint arXiv:2201.09802},
+  year={2022}
+}
+```
+
 ## Idea
 By taking a Bayesian perspective, LAMBDA learns a world model and uses it to generate sequences using different posterior samples of the world model parameters. Following that, it chooses and learns from the optimistic sequences how to solve the task and from the pessimistic sequences how to adhere to safety restrictions.
 
@@ -33,18 +44,6 @@ results
     └── environment1
         ├── experiment1
         └── experiment2
-```
-
-## Research Paper
-Please see our [paper (arXiv)](https://arxiv.org/abs/2201.09802) for further details.
-To cite, please use:
-```
-@article{as2022constrained,
-  title={Constrained Policy Optimization via Bayesian World Models},
-  author={As, Yarden and Usmanova, Ilnura and Curi, Sebastian and Krause, Andreas},
-  journal={arXiv preprint arXiv:2201.09802},
-  year={2022}
-}
 ```
 
 ## Acknowledgement
