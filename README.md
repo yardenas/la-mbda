@@ -26,7 +26,7 @@ pip3 install .
 ```
 Run experiments:
 ```
-python3 experiments/train.py --log_dir results/point_goal2/314 --environment sgym_Safexp-PointGoal2-v0 --total_training_steps 1000000 --safety
+python3 experiments/train.py --log_dir results/la_mbda/point_goal2/314 --environment sgym_Safexp-PointGoal2-v0 --total_training_steps 1000000 --safety
 ```
 Plot:
 ```
